@@ -1,1 +1,3 @@
-rustup target add thumbv7em-none-eabihf
+rustup target add aarch64-unknown-none
+cargo install cargo-xbuild
+rustup component add rust-src
